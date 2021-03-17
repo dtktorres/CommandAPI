@@ -23,7 +23,7 @@ namespace CommandAPI.Tests
             testCommand.HowTo = "Execute Unit Test";
 
             //Assert
-            Assert.Equal("hola",testCommand.HowTo);
+            Assert.Equal("Execute Unit Test",testCommand.HowTo);
 
         }
         [Fact]
